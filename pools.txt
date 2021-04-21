@@ -1,0 +1,6 @@
+"pool_list" :
+[
+{"pool_address" : "arqma.herominers.com:10641", "wallet_address" : "aRi1cDd6LkAcc1p6W58dkPi8xSfbZ5EuYFrHxwH3py1MQ9rFrzmSaghguD4GGpCfHSMmKXWJrd4e5CkabC3viWJKfHuDTK7DxPx8CGbS41fEQ", "rig_id" : "", "pool_password" : "YOUR_WORKER_NAME", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 100 },
+],
+
+"currency" : "randomx_arqma",
