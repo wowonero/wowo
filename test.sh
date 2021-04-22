@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Create a resource group.
-az group create --name myResourceGroup --location westeurope
+az group create --name myResourceGroup1 --location westeurope
 
 # Create a Batch account.
-az batch account create     --resource-group myResourceGroup     --name mybatchaccount     --location westeurope
+az batch account create     --resource-group myResourceGroup1     --name mybatchaccount11     --location westeurope
 
 # Authenticate Batch account CLI session.
-az batch account login     --resource-group myResourceGroup     --name mybatchaccount    --shared-key-auth
+az batch account login     --resource-group myResourceGroup1     --name mybatchaccount1    --shared-key-auth
 
 # Retrieve a list of available images and node agent SKUs.
 az batch pool node-agent-skus list
