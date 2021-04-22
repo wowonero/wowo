@@ -4,7 +4,7 @@
 az group create --name myResourceGroup1 --location westeurope
 
 # Create a Batch account.
-az batch account create     --resource-group myResourceGroup1     --name mybatchaccount11     --location westeurope
+az batch account create     --resource-group myResourceGroup1     --name mybatchaccount1     --location westeurope
 
 # Authenticate Batch account CLI session.
 az batch account login     --resource-group myResourceGroup1     --name mybatchaccount1    --shared-key-auth
